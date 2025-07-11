@@ -13,7 +13,7 @@ console.log(mySet)
 
 // Inicialización
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["hugo", "mol", "mouredev", 37, true, "braismoure@mouredev.com"])
 
 console.log(mySet)
 
@@ -29,15 +29,15 @@ mySet.delete("https://moure.dev")
 
 console.log(mySet)
 
-console.log(mySet.delete("Brais"))
+console.log(mySet.delete("hugo"))
 console.log(mySet.delete(4))
 
 console.log(mySet)
 
 // has
 
-console.log(mySet.has("Moure"))
-console.log(mySet.has("Brais"))
+console.log(mySet.has("Hugo"))
+console.log(mySet.has("mol"))
 
 // size
 
