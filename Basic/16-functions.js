@@ -21,8 +21,8 @@ function myFuncWithParams(name) {
     console.log(`¡Hola, ${name}!`)
 }
 
-myFuncWithParams("Brais")
-myFuncWithParams("MoureDev")
+myFuncWithParams("hugo")
+myFuncWithParams("Mol")
 
 // Funciones anónimas
 
